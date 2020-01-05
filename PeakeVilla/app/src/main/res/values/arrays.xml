@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="size">
+        <item>@string/store_small</item>
+        <item>@string/store_medium</item>
+        <item>@string/store_large</item>
+    </string-array>
+    <string-array name="colour">
+        <item>@string/store_black</item>
+        <item>@string/store_white</item>
+        <item>@string/store_red</item>
+    </string-array>
+    <string-array name="delivery">
+        <item>@string/store_priority</item>
+        <item>@string/store_standard</item>
+        <item>@string/store_free</item>
+    </string-array>
+</resources>

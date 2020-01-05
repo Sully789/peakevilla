@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/store_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true" />
+<!--
+    <ScrollView
+        android:id="@+id/store_scrollview"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/store_image"
+        android:layout_height="wrap_content">
+-->
+        <TextView
+            android:text="@string/store_size"
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_image"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/size_spinner"
+            android:layout_below="@+id/size"
+            android:spinnerMode="dialog"/>
+        <TextView
+            android:text="@string/store_colour"
+            android:id="@+id/colour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/size_spinner"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/colour_spinner"
+            android:layout_below="@+id/colour"/>
+        <TextView
+            android:text="@string/store_delivery"
+            android:id="@+id/delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/colour_spinner"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/delivery_spinner"
+            android:layout_below="@+id/delivery"/>
+   <!-- </ScrollView> -->
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_below="@id/delivery_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/back_to_formation" />
+
+    <Button
+        android:id="@+id/back_to_formation"
+        android:layout_alignLeft="@+id/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/back_to_formation" />
+
+</RelativeLayout>

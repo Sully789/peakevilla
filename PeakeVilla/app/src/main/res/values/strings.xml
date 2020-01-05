@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Peake Villa F.C</string>
+    <string name="splash">Welcome to the Peake Villa F.C App</string>
+    <string name="version">Version 0.1</string>
+    <string name="info_button">Information</string>
+    <string name="formation_button">Formation</string>
+    <string name="store_button">Store</string>
+    <string name="location_button">Location</string>
+    <string name="history_button">History</string>
+    <string name="news_button">Club News</string>
+    <string name="history_text">Peake Villa AFC was founded in the quiet country district of Dualla, Co. Tipperary in 1967.
+        It\'s founder members were John Walshe, Matthew Ryan, Willie Moloney and Jim McEntee, three of these people being from Boherlahan and the latter from Thurles.
+        The name was based on the combination of the townsland where the club was formed PEAKE, Gale, Thurles, Co. Tipperary.
+        Jerry Quigley of Cabragh, Thurles was first player to sign and play for Peake Villa and his family were great friends of Ron Saunders the Aston Villa manager at the time.
+        Hence the combination of the two give the club its name of Peake Villa.</string>
+    <string name="cf">CF</string>
+    <string name="ram">RAM</string>
+    <string name="cam">CAM</string>
+    <string name="lam">LAM</string>
+    <string name="ldm">LDM</string>
+    <string name="cdm">CDM</string>
+    <string name="rdm">RDM</string>
+    <string name="cb">CB</string>
+    <string name="gk">GK</string>
+    <string name="add_player">Add Player</string>
+    <string name="view_team">View Team</string>
+    <string name="formation_textview">Player</string>
+    <string name="show_info">Info</string>
+    <string name="cf1_description">
+        Name: Tom Ryan\n
+        Position: CF\n
+        Goals: 32\n
+        Assists: 43\n
+        Rating: 83\n
+    </string>
+    <string name="cf2_description">
+        Name: Jack O\'Connor\n
+        Position: CF\n
+        Goals: 21\n
+        Assists: 25\n
+        Rating: 75\n
+    </string>
+    <string name="lam_description">
+        Name: James Ryan\n
+        Position: LAM\n
+        Goals: 4\n
+        Assists: 87\n
+        Rating: 79\n
+    </string>
+    <string name="cam_description">
+        Name: John Daly\n
+        Position: CAM\n
+        Goals: 8\n
+        Assists: 21\n
+        Rating: 90\n
+    </string>
+    <string name="ram_description">
+        Name: Adam Ryan\n
+        Position: RAM\n
+        Goals: 4\n
+        Assists: 83\n
+        Rating: 74\n
+    </string>
+    <string name="ldm_description">
+        Name: Thomas Doyle\n
+        Position: LDM\n
+        Goals: 4\n
+        Assists: 53\n
+        Rating: 79\n
+    </string>
+    <string name="cdm_description">
+        Name: Jack McCormac\n
+        Position: CDM\n
+        Goals: 2\n
+        Assists: 43\n
+        Rating: 83\n
+    </string>
+    <string name="rdm_description">
+        Name: Tom Doyle\n
+        Position: RDM\n
+        Goals: 2\n
+        Assists: 33\n
+        Rating: 87\n
+    </string>
+    <string name="cb1_description">
+        Name: John Ryan\n
+        Position: CB\n
+        Goals: 2\n
+        Assists: 31\n
+        Rating: 78\n
+    </string>
+    <string name="cb2_description">
+        Name: Jim Doyle\n
+        Position: CB\n
+        Goals: 3\n
+        Assists: 12\n
+        Rating: 81\n
+    </string>
+    <string name="gk_description">
+        Name: Tom O\'Connor\n
+        Position: GK\n
+        Saves: 323\n
+        Goals Allowed: 21\n
+        Rating: 83\n
+    </string>
+    <string name="back_to_formation">Back to Formation</string>
+    <string name="title">View Team</string>
+    <string name="name">Name: </string>
+    <string name="position">Position: </string>
+    <string name="goals">Goals: </string>
+    <string name="assists">Assists: </string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="view">View</string>
+    <string name="view_all">View All</string>
+    <string name="buy_button">Buy Now</string>
+    <string name="store_size">Size</string>
+    <string name="store_small">Small</string>
+    <string name="store_medium">Medium</string>
+    <string name="store_large">Large</string>
+    <string name="store_colour">Colour</string>
+    <string name="store_black">Black</string>
+    <string name="store_white">White</string>
+    <string name="store_red">Red</string>
+    <string name="store_delivery">Delivery</string>
+    <string name="store_priority">Priority</string>
+    <string name="store_standard">Standard</string>
+    <string name="store_free">Free</string>
+    <string name="back_to_store">Back to Store</string>
+    <string name="buy">Buy Now</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

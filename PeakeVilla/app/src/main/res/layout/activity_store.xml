@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/jersey_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/jersey"/>
+
+    <Button
+        android:id="@+id/jersey_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jersey_image"
+        android:layout_alignLeft="@+id/jersey_image"
+        android:layout_marginLeft="30dp"
+        android:onClick="onClick"
+        android:text="@string/buy_button" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/jacket_image"
+        android:layout_alignBottom="@+id/jersey_image"
+        android:layout_toRightOf="@+id/jersey_image"
+        android:layout_marginLeft="30dp"
+        app:srcCompat="@drawable/jacket"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jacket_button"
+        android:layout_below="@+id/jacket_image"
+        android:layout_alignLeft="@+id/jacket_image"
+        android:layout_marginLeft="30dp"
+        android:onClick="onClick"
+        android:text="@string/buy_button"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/boots_image"
+        android:layout_below="@+id/jersey_button"
+        android:layout_alignLeft="@+id/jersey_image"
+        app:srcCompat="@drawable/boots"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boots_button"
+        android:layout_below="@+id/boots_image"
+        android:layout_alignLeft="@+id/boots_image"
+        android:layout_marginLeft="30dp"
+        android:onClick="onClick"
+        android:text="@string/buy_button"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/socks_image"
+        android:layout_alignBottom="@+id/boots_image"
+        android:layout_toRightOf="@+id/boots_image"
+        android:layout_marginLeft="30dp"
+        app:srcCompat="@drawable/socks"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/socks_button"
+        android:layout_below="@+id/socks_image"
+        android:layout_alignLeft="@+id/socks_image"
+        android:layout_marginLeft="30dp"
+        android:onClick="onClick"
+        android:text="@string/buy_button"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/gearbag_image"
+        android:layout_below="@+id/socks_button"
+        android:layout_alignLeft="@+id/jersey_image"
+        app:srcCompat="@drawable/gearbag"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gearbag_button"
+        android:layout_below="@+id/gearbag_image"
+        android:layout_alignLeft="@+id/gearbag_image"
+        android:layout_marginLeft="30dp"
+        android:onClick="onClick"
+        android:text="@string/buy_button"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/shin_image"
+        android:layout_alignBottom="@+id/gearbag_image"
+        android:layout_toRightOf="@+id/gearbag_image"
+        android:layout_marginLeft="30dp"
+        app:srcCompat="@drawable/shin"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shin_button"
+        android:layout_below="@+id/shin_image"
+        android:layout_alignLeft="@+id/shin_image"
+        android:layout_marginLeft="30dp"
+        android:onClick="onClick"
+        android:text="@string/buy_button"/>
+
+
+</RelativeLayout>
